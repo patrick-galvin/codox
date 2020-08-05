@@ -1,4 +1,4 @@
-(defproject codox "0.10.7"
+(defproject codox "0.10.8"
   :description "Generate documentation from Clojure source files"
   :url "https://github.com/weavejester/codox"
   :scm {:dir ".."}
@@ -10,4 +10,5 @@
                  [hiccup "1.0.5"]
                  [enlive "1.1.6"]
                  [org.pegdown/pegdown "1.6.0"]
-                 [org.ow2.asm/asm-all "5.0.3"]])
+                 [org.parboiled/parboiled-java "1.3.0"]
+                 ])
